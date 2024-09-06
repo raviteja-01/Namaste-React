@@ -8,11 +8,11 @@ This method is used to create react elements.
 
 ### Parameters
 
-1. **type:**The type argument must be a valid React component type. It could be string of tag name ("h1" or "div") or React component(functional, class or special component like Fragment).
+1. **type:** The type argument must be a valid React component type. It could be string of tag name ("h1" or "div") or React component(functional, class or special component like Fragment).
 
 2. **props:** We can pass an object or null. createElement will create an element with the same props we passed. ref and key props are special.
 
-3. optional ...children: zero or more child nodes. They can be React nodes like ReactElements, strings, numbers, empty nodes (null, undefined, true and false) and an array of Reactnodes.
+3. **optional ...children:** zero or more child nodes. They can be React nodes like ReactElements, strings, numbers, empty nodes (null, undefined, true and false) and an array of Reactnodes.
 
 ### Return
 

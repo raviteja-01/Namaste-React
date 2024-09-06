@@ -1,4 +1,11 @@
-const heading = React.createElement("h1", null, "Namaste React");
+import React from "react";
+import ReactDOM from "react-dom/client";
+
+const heading = React.createElement(
+  "h1",
+  { className: "heading" },
+  "Hello World!"
+);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
