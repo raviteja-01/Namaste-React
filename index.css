@@ -93,3 +93,17 @@
 .resto-details > p {
   margin-top: 8px;
 }
+
+.filter-btn-container {
+  margin: 20px;
+  text-align: center;
+}
+
+.filter-btn {
+  padding: 12px 18px;
+  border: none;
+  cursor: pointer;
+  background-color: orangered;
+  color: #fff;
+  border-radius: 8px;
+}
